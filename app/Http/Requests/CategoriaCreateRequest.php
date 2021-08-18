@@ -47,9 +47,9 @@ class CategoriaCreateRequest extends FormRequest
             'nombre.max'=>'El :attribute tiene más de 20 caracteres',
             'nombre.regex'=>'El :attribute no cumple con el formato',
             'descripcion.required'=>'La :attribute es necesaria',
-            'descripcion.alpha'=>'El :attribute debe ser sólo letras',
-            'descripcion.min'=>'El :attribute no puede tener menos de 4 caracteres',
-            'descripcion.max'=>'El :attribute tiene más de 50 caracteres',
+            'descripcion.alpha'=>'La :attribute debe ser sólo letras',
+            'descripcion.min'=>'La :attribute no puede tener menos de 4 caracteres',
+            'descripcion.max'=>'La :attribute tiene más de 50 caracteres',
     ];
   }
 }
